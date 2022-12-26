@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    line-height: 1;
+    font-family: 'Courier New', Courier, monospace;
+	background-color: goldenrod;
+	font-weight: bold;
+}
+
+header {
+	font-size: 5em;
+	font-weight: bold;
+	text-align: center;
+	background-color: lightpink;
+}
+
+#turn {
+	text-align: center;
+	font-size: 3em;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#container {
+	display: grid;
+	font: 20px;
+	width: 33%;
+	aspect-ratio: 1 / 1;
+	box-sizing: border-box;
+	background-color: red;
+	grid-template-columns: repeat(3, 1fr);
+	margin: auto;
+	gap: 2px;
+}
+
+.square {
+	box-sizing: border-box;
+	gap: 2px;
+	background-color: aqua;
+}
+
+#copyright {
+	text-align: center;
+	font-size: 1.4em;
+}
+
+.button {
+	display: flex;
+    justify-content: center;
+  	align-items: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#restart {
+	margin: auto;
+	font-size: 3em;
+	border-radius: 5px;
+}
